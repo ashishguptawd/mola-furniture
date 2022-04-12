@@ -1,0 +1,287 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Sans', sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.navbar-brand{
+	font-size: 15px;
+}
+.green{
+	background-color: #a6c76c;
+	padding:0 3px ;
+}
+
+.navbar .navbar-nav .nav-link{
+	font-size: 15px;
+	padding: 15px;
+}
+
+.nav-link span{
+	color: #a6c76c;
+ ;
+}
+.carasol{
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 70vh;
+	background-image: url("..//image/img_bg-001.jpeg");
+}
+.carasol{
+	display: flex;
+	align-items: center;
+}
+.carasol h1{
+	font-size: 60px;
+}
+
+.carasol  button,.shop{
+color: grey;
+	border: 1px solid grey;
+	padding: 5px 20px;
+transition: 0.5s;
+background: none;
+
+}
+
+.carasol  button:hover,.shop:hover{
+	background-color: #a6c76c;
+	color: white;
+
+}
+
+.logos .border-left{
+	border-right:1px solid lightgrey;
+}
+.table {
+		max-width: 100%;
+}
+.tea img{
+	max-width: 100%;
+}
+.decor img{
+max-width: 100%;
+}
+
+.banner{
+	position: relative;
+}
+.banner-text{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	padding: 16px;
+}
+.card-texti{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+padding: 4px 13px;
+	background-color: red;
+	border-radius: 100%;
+
+}
+
+.discover{
+
+		padding: 5px 10px;
+transition: 0.5s;
+background: none;
+border: none;
+outline: none;
+color: white;
+font-size: 15px;
+}
+
+.discover:hover{
+	background-color: #fff;
+	color: #000;
+		
+
+}
+.decor-discover{
+
+		padding: 5px 10px;
+transition: 0.5s;
+background: none;
+border: none;
+outline: none;
+color: #000;
+font-size: 15px;
+
+}
+
+.decor-discover:hover{
+	background-color: #000;
+	color: #fff;
+		
+
+}
+
+.featured ul li{
+	padding: 10px;
+}
+/*.featured button{
+	display: none;
+}
+
+.featured img:hover .featured button{
+
+}*/
+.shadow-hover:hover{
+box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+	
+}
+
+.border-css{
+	border-bottom: 1px solid  #a6c76c;
+}
+.quantity{
+	background-color: #f1f2f6;
+}
+.chair{
+	max-width: 50%;
+
+}
+.chairs{
+
+	flex-direction: row-reverse;
+}
+.banner5{
+	max-width: 100%;
+}
+
+.green-css{
+	color: #a6c76c;
+}
+
+.bg-banner-text{
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	padding: 16px;
+}
+
+.padding{
+	padding: 5px 10px;
+border-radius: 10px;
+}
+
+.p-css p{
+	color: #a6c76c;
+}
+
+.returns{
+	background-color: #fcf8e7;
+}
+
+
+/*deals*/
+
+.deals{
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 40vh;
+	background-image: url("..//image/parallax.jpeg");
+	display: flex;
+	align-items: center;
+}
+.deals .hara{
+	background-color: #a6c76c;
+border: none;
+outline: none;
+padding: 10px 45px;
+
+
+}
+.footer ul li{
+	line-height: 30px;
+}
+.footer p,.footer ul li{
+font-size: 15px;
+
+}
+.nav2 .hh{
+	background-color: #a6c76c;
+		border: none;
+	padding: 5px 20px;
+outline: none;
+
+color: white;
+
+}
+.footer i{
+	color:  #a6c76c;
+	font-size: 20px;
+	padding-right: 10px;
+}
+.direction{
+flex-direction:row-reverse;
+}
+html,body{
+	padding: 0;
+	width: 100%;
+	overflow-x: hidden;
+}
+@media ( max-width: 768px){
+	.navbar, .nav3{
+		display: none;
+	}
+	.nav2{
+
+	}
+	.carasol h1{
+     font-size: 40px;
+	}
+
+.carasol  button,.shop{
+color: grey;
+	border: 1px solid grey;
+	padding: 5px 5px;
+transition: 0.5s;
+background: none;
+
+}
+  .coffee .decor h4 {
+font-size: 15px;
+}
+  .coffee .decor button{
+  	margin-bottom: 30px;
+  }
+  .quantity p{
+  	font-size:5px;
+  }
+
+   .quantity h1{
+  	font-size: 20px;
+  }
+ 
+   .quantit .tt{
+  	padding: 10px;
+  }
+  .ttt{
+  	display: none;
+  }
+  .padding{
+	padding: 10px;
+border-radius:5px;
+}
+.quantity p{
+	margin-top:-30px;
+}
+.
+.deals input{
+	display: none;
+}
+ .nav2 .icons {
+	padding: 15px;
+}
+.returns{
+	text-align:center ;
+}
+}
